@@ -110,6 +110,8 @@
     </section>
 
     <script>
+                //Ticket booking function
+
          function handleTicketCount(ticket, isIncrease){
                const ticketInput = document.getElementById(ticket +'-class');
                const ticketCount = parseInt(ticketInput.value);
@@ -144,6 +146,7 @@
                return ticketCount;
             }
 
+            // validation of Ticket Booking
             function bookingConfirm(){
                 const validation = document.getElementById('grand-total').innerText;
                 console.log(validation);
@@ -155,7 +158,7 @@
 
                 }
 
-            //     swal("Good job!", "You clicked the button!", "success");
+
             }
     </script>
 
